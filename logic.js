@@ -1,4 +1,8 @@
-
+function enterkeypress(event){
+    if(event.keyCode==13){
+        search();
+    }
+}
 
 search = async()=>{
     
